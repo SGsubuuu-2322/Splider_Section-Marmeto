@@ -5,8 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Splider_Section</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <div class="anounce-bar">
+      <div class="content">
+        <span><img src="./assets/icons8-chevron-left-24.png" alt="" /></span>
+        <p>Flash Sale: Save Big 24 Hours!</p>
+        <span><img src="./assets/icons8-chevron-right-24.png" alt="" /></span>
+      </div>
+    </div>
+    <section class="splide" aria-label="Splide Basic HTML Example">
+      <div class="splide__track">
+        <div class="input">
+          <label for="positions">Positions: </label>
+          <select id="positions" name="carlist" form="carform">
+            <option value="none">None</option>
+            <option value="top-left">Top_Left</option>
+            <option value="top-center">Top_Center</option>
+            <option value="top-right">Top_Right</option>
+            <option value="center-left">Center_Left</option>
+            <option value="center-center">Center_Center</option>
+            <option value="center-right">Center_Right</option>
+            <option value="bottom-left">Bottom_Left</option>
+            <option value="bottom-center">Bottom_Center</option>
+            <option value="center-right">Bottom_Right</option>
+          </select>
+        </div>
+        <ul class="splide__list">
+          <!-- <li class="splide__slide">
+            <img
+              src="//veena-theme-fashion.myshopify.com/cdn/shop/files/1.png?v=1705665890&width=3840&w=800&lazy=load"
+              alt=""
+              srcset=""
+            />
+            <div class="content-cover">
+              <div class="content">
+                <p class="pre-heading">Women's Apparel</p>
+                <div class="heading">
+                  Elevate your wardrobe with our limited-time fashion offer!
+                </div>
+                <button class="btn">Explore more</button>
+              </div>
+            </div>
+          </li>
+          <li class="splide__slide">
+            <img
+              src="//veena-theme-fashion.myshopify.com/cdn/shop/files/4.png?v=1705665890&width=3840?&w=800&lazy=load"
+              alt=""
+              srcset=""
+            />
+            <div class="content-cover">
+              <div class="content">
+                <p class="pre-heading">Women's Apparel</p>
+                <div class="heading">
+                  Elevate your wardrobe with our limited-time fashion offer!
+                </div>
+                <button class="btn">Explore more</button>
+              </div>
+            </div>
+          </li>
+          <li class="splide__slide">
+            <img
+              src="//veena-theme-fashion.myshopify.com/cdn/shop/files/3.png?v=1705665898&width=3840&lazy=load"
+              alt=""
+              srcset=""
+            />
+            <div class="content-cover">
+              <div class="content">
+                <p class="pre-heading">Women's Apparel</p>
+                <div class="heading">
+                  Elevate your wardrobe with our limited-time fashion offer!
+                </div>
+                <button class="btn">Explore more</button>
+              </div>
+            </div>
+          </li> -->
+        </ul>
+      </div>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
